@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Civique 2027</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="exam-paper">
+
+        <header>
+            <div class="flag">
+                <div class="blue"></div>
+                <div class="white"></div>
+                <div class="red"></div>
+            </div>
+
+            <p class="subtitle">
+                FRANCE — ÉLECTION PRÉSIDENTIELLE 2027
+            </p>
+
+            <h1>EXAMEN DE CONNAISSANCES CIVIQUES</h1>
+
+            <p class="disclaimer">
+                Simulation citoyenne indépendante et non officielle
+            </p>
+        </header>
+
+        <section class="exam-info">
+            <p>Nombre de questions : 20</p>
+            <p>Barème : 20 points</p>
+            <p>Durée indicative : 30 minutes</p>
+            <p>Note minimale : 18/20</p>
+        </section>
+
+        <section class="instructions">
+            <h2>Consignes générales</h2>
+
+            <p>
+                Répondez aux questions suivantes.
+                Vous pouvez modifier vos réponses jusqu'à
+                la remise de votre copie.
+            </p>
+
+            <p>Chaque question vaut un point.</p>
+        </section>
+
+        <form id="exam-form">
+
+            <div id="questions"></div>
+
+            <footer>
+                <h3>FIN DE L'ÉPREUVE</h3>
+
+                <p id="progress"></p>
+
+                <button type="submit">
+                    Remettre ma copie
+                </button>
+            </footer>
+
+        </form>
+
+        <section id="result" hidden></section>
+
+    </main>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
